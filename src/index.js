@@ -1,3 +1,5 @@
+'use strict';
+
 const calculator = require('./calculator.js');
 
 console.log(calculator.collectTests(testFunction));
