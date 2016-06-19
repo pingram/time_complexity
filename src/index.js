@@ -1,3 +1,7 @@
-var randomString = require('./calculator.js')
+const calculator = require('./calculator.js');
 
-console.log(randomString(10));
+console.log(calculator.timeTest(1000000000, testFunction));
+
+function testFunction(str) {
+  const a = str;
+}
